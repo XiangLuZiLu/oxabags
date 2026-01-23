@@ -5,7 +5,7 @@
   "scripts": {
     "typegen": "sanity schema extract --path=sanity/extract.json && sanity typegen generate",
     "predev": "npm run typegen",
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbo",
     "prebuild": "npm run typegen",
     "build": "next build",
     "postbuild": "next-sitemap",
